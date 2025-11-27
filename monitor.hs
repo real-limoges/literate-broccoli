@@ -1,5 +1,7 @@
-#!/usr/bin/env stack
--- stack --resolver lts-22.11 script --package aeson --package process --package bytestring --package text --package lens --package lens-aeson
+#!/usr/bin/env cabal
+{- cabal:
+build-depends: base, aeson, process, bytestring, text, lens, lens-aeson
+-}
 
 {-# LANGUAGE NumericUnderscores #-}
 {-# LANGUAGE OverloadedStrings  #-}
